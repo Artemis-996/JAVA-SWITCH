@@ -27,14 +27,14 @@ class Hotel
 					{
 						System.out.println("Quantity : ");
 						int qty = sc.nextInt();
-						System.out.println("You will have to pay :"+" "+ (qty*70)+" Rs "+" "+"for"+" "+qty+" "+"Dosa");
+						System.out.println("Order Placed!! Please Pay :"+" "+ (qty*70)+" Rs "+" "+"for"+" "+qty+" "+"Dosa");
 						break;
 					}
 				case 2:
 					{
 						System.out.println("Quantity : ");
 						int qty = sc.nextInt();
-						System.out.println("You will have to pay :"+" "+ (qty*50)+" Rs "+" "+"for"+" "+qty+" "+"Paratha");
+						System.out.println("Order Placed!! Please Pay :"+" "+ (qty*50)+" Rs "+" "+"for"+" "+qty+" "+"Paratha");
 						break;
 					}
 				case 3:
@@ -47,12 +47,12 @@ class Hotel
 						{
 						case 1:
 							{
-								System.out.println("You will have to pay :"+" "+80+" Rs "+" "+"for"+" "+"half"+" "+"PBM");
+								System.out.println("Order Placed!! Please Pay :"+" "+80+" Rs "+" "+"for"+" "+"half"+" "+"PBM");
 								break;
 							}
 						case 2:
 							{
-								System.out.println("You will have to pay :"+" "+150+" Rs "+" "+"for"+" "+"full"+" "+"PBM");
+								System.out.println("Order Placed!! Please Pay :"+" "+150+" Rs "+" "+"for"+" "+"full"+" "+"PBM");
 								break;
 							}
 						}
@@ -62,10 +62,11 @@ class Hotel
 					{
 						System.out.println("Quantity : ");
 						int qty = sc.nextInt();
-						System.out.println("You will have to pay :"+" "+ (qty*7)+" Rs "+" "+"for"+" "+qty+" "+"Roti");
+						System.out.println("Order Placed!! Please Pay :"+" "+ (qty*7)+" Rs "+" "+"for"+" "+qty+" "+"Roti");
 						break;
 					}	
 				}
+				break;
 			}
 		case 2:
 			{
@@ -81,14 +82,14 @@ class Hotel
 					{
 						System.out.println("Quantity : ");
 						int qty = sc.nextInt();
-						System.out.println("You will have to pay :"+" "+ (qty*150)+" Rs "+" "+"for"+" "+qty+" "+"CHICKEN TIKKA");
+						System.out.println("Order Placed!! Please Pay :"+" "+ (qty*150)+" Rs "+" "+"for"+" "+qty+" "+"CHICKEN TIKKA");
 						break;
 					}
 				case 2:
 					{
 						System.out.println("Quantity : ");
 						int qty = sc.nextInt();
-						System.out.println("You will have to pay :"+" "+ (qty*160)+" Rs "+" "+"for"+" "+qty+" "+"CHICKEN BIRYANI");
+						System.out.println("Order Placed!! Please Pay :"+" "+ (qty*160)+" Rs "+" "+"for"+" "+qty+" "+"CHICKEN BIRYANI");
 						break;
 					}
 				case 3:
@@ -100,12 +101,12 @@ class Hotel
 						{
 						case 1:
 							{
-								System.out.println("You will have to pay :"+" "+ (qty*110)+" Rs "+" "+"for"+" "+"Half"+" "+"CHICKEN MASALA");
+								System.out.println("Order Placed!! Please Pay :"+" "+ (qty*110)+" Rs "+" "+"for"+" "+"Half"+" "+"CHICKEN MASALA");
 								break;
 							}
                         case 2:
 							{
-								System.out.println("You will have to pay :"+" "+ (qty*200)+" Rs "+" "+"for"+" "+"Full"+" "+"CHICKEN MASALA");
+								System.out.println("Order Placed!! Please Pay :"+" "+ (qty*200)+" Rs "+" "+"for"+" "+"Full"+" "+"CHICKEN MASALA");
 								break;
 							}
 						
@@ -116,7 +117,7 @@ class Hotel
 					{
 						System.out.println("Quantity : ");
 						int qty = sc.nextInt();
-						System.out.println("You will have to pay :"+" "+ (qty*7)+" Rs "+" "+"for"+" "+qty+" "+"ROTI");
+						System.out.println("Order Placed!! Please Pay :"+" "+ (qty*7)+" Rs "+" "+"for"+" "+qty+" "+"ROTI");
 						break;
 
 					}
